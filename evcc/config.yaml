@@ -1,7 +1,7 @@
 ---
-name: evcc
-version: 0.316.2
-slug: evcc
+name: evcc Phase Rotation
+version: latest
+slug: evcc_phase_rotation
 description: EV Charge Controller!
 url: https://github.com/evcc-io/evcc
 stage: stable
@@ -54,7 +54,7 @@ ports_description:
   8899/udp: "Modbus UDP"
   9522/udp: "SMA Speedwire Multicast"
 
-image: evcc/evcc
+image: ghcr.io/pascalmauricemohr/evcc-phase-rotation
 
 options: 
   sqlite_file: /data/evcc.db
